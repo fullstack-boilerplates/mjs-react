@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "shack dev",
+    "dev": "shack dev -e .js",
     "build": "shack build",
-    "start": "shack start"
+    "start": "shack start -e .js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "@shack-js/cli": "^1.0.24",
+    "@shack-js/cli": "^1.1.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
